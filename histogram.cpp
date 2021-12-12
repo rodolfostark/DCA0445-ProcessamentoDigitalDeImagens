@@ -14,7 +14,7 @@ int main(int argc, char** argv){
   bool acummulate = false;
   int key;
 
-	cap.open(2);
+	cap.open(0);
   
   if(!cap.isOpened()){
     std::cout << "cameras indisponiveis";
